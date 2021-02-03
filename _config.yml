@@ -84,8 +84,8 @@ content:
           I started this project with Yu Qian Ang and Zach Berzolla to accelerate the creation of UBEMs. This
           project tought me how to develop and maintain a microservice on <mark>AWS</mark>.
           
-          The backbone of UBEM.io consists of 3 projects that I developed: [pyumi](#pyumi),
-          <mark>archetypal</mark> and <mark>umitemplatedb</mark>.
+          The backbone of UBEM.io consists of 3 projects that I developed: [<mark>pyumi</mark>](#pyumi),
+          [<mark>archetypal</mark>](#archetypal) and [<mark>umitemplatedb</mark>](#umitemplatedb).
   
           Upload a GIS footprint file with a *height* attribute, and get an UMI project file which can be opened in
           [UMI for Rhino](http://web.mit.edu/sustainabledesignlab/projects/umi/index.html). After the energy
@@ -214,7 +214,7 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: samuelduchesne/modern-resume-theme
+remote_theme: samuelduchesne/modern-resume-theme@develop
 
 sass:
   sass_dir: _sass
