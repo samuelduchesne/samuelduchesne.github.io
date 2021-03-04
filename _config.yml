@@ -135,8 +135,8 @@ content:
           jewel of reproducible data analysis workflows.
           
           I leveraged the excellent eppy package to do the heavy lifting of parsing IDF models, but I
-          rewrote the whole logic to handle file upgrades and simulation results. From this robust IDF model scriptng
-          language, I developed the model complexity reduction algorithms to created simplified 2-zone UMI models out
+          rewrote the whole logic to handle file upgrades and simulation results. From this robust IDF model scripting
+          language, I developed the model complexity reduction algorithms to create simplified 2-zone UMI models out
           of complexe multi-zone IDF models. This in turn enabled the creation of building templates for the [umi
           template database](#umitemplatedb).
           
