@@ -171,6 +171,15 @@ content:
           As a Postdoctoral Fellow in the Sustainable Design Lab, I undertake reaserch at the intersection of urban building 
           energy modeling and district energy systems modeling to guide city planners, architects and engineers, 
           in designing and planning efficient buildings and urban systems.
+          
+      - layout: left
+        title: Green.Building.Solutions
+        link: https://summer-university.net/gbs-vienna/
+        link_text: summer-university.net/gbs-vienna
+        sub_title: Summer university
+        caption: Summer 2015
+        description: |
+          First hand ecological knowledge and engineering expertise bundled in a three-week program in the capital of energy efficiency building: Vienna.
         
       - layout: left
         title: Thermal Energy Systems Specialists (TESS)
@@ -181,6 +190,7 @@ content:
         quote: >
           Internship at the office of the developers of TRNSYS
         description: |
+          
           
         
 
