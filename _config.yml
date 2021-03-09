@@ -30,10 +30,10 @@ linkedin_username: samuel-letellier-duchesne-40670538
 orcid_username: 0000-0001-5790-878X
 
 # Additional icon links
-#additional_links:
-- title: researchgate
-  icon: fas fa-flask
-  url: https://www.researchgate.net/profile/Samuel-Letellier-Duchesne
+additional_links:
+  - title: researchgate
+    icon: fas fa-flask
+    url: https://www.researchgate.net/profile/Samuel-Letellier-Duchesne
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
