@@ -31,9 +31,9 @@ orcid_username: 0000-0001-5790-878X
 
 # Additional icon links
 #additional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
+- title: researchgate
+  icon: fas fa-flask
+  url: https://www.researchgate.net/profile/Samuel-Letellier-Duchesne
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -173,6 +173,18 @@ content:
           in designing and planning efficient buildings and urban systems.
           
       - layout: left
+        title: Pageau Morel
+        link: http://www.pageaumorel.com
+        link_text: pageaumorel.com
+        sub_title: Internship
+        caption: Autumn 2016
+        quote: >
+          This interneship was funded by the competitive Mitacs Acceleration scholarship.
+        description: | # this will include new lines to allow paragraphs
+          At Pageau Model, an MEP firm based in Montréal, Québec, I evaluated the potential of incorporating within the company workstream the use of 
+          novel building energy modelling tools such as Sefaira. I delivered a final report offering recommendations at the end of the intership.
+          
+      - layout: left
         title: Green.Building.Solutions
         link: https://summer-university.net/gbs-vienna/
         link_text: summer-university.net/gbs-vienna
@@ -192,9 +204,8 @@ content:
         quote: >
           Internship at the office of the developers of TRNSYS
         description: |
-          
-          
-        
+          During the internship, I learned to use TRNSYS, the simulation tool that would become a central part of my master's thesis. My main task was to 
+          write technical documentation for future releases of TRNSYS.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
