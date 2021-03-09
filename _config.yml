@@ -173,6 +173,23 @@ content:
           in designing and planning efficient buildings and urban systems.
           
       - layout: left
+        title: C40 | Reinventing Cities Competition
+        link: https://www.c40reinventingcities.org/en/professionals/winning-projects/de-la-commune-service-yard-1309.html
+        link_text: De la Commune Service Yard
+        sub_title: Consultant
+        caption: February to June 2019
+        quote: >
+          Developing tools at the SDL Lab has definitely reinforced my passion for creating robust analysis solutions
+          that others can use.
+        description: | # this will include new lines to allow paragraphs
+          I delivered a feasibility study for the implementation of an urban energy sharing network for the site of the De la Commune Service Yard. 
+          The study used an advanced topology optimization algorithm I developed during my PhD to explore various connectivity scenarios 
+          with an adjacent district energy plant. Also in the report, I outlined economic, legal, and technical opportunites and barriers for the project.
+          
+          This report in addition to my help writing the "Energy Efficiency & Green Energy Production" chapter of the project's proposal document 
+          helped our team secure the bid for the competition.
+          
+      - layout: left
         title: Pageau Morel
         link: http://www.pageaumorel.com
         link_text: pageaumorel.com
