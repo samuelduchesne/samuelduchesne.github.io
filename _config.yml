@@ -151,7 +151,7 @@ content:
           The structure of the archetype template database.
         description: | # this will include new lines to allow paragraphs
           The umitemplatedb project was created out of a necessity to store and retreive UMI <mark>Template Library
-          Files</mark>. The project defines the building template format, the backbone of UMI projects and handles
+          Files</mark> online. The project defines the building template format, the backbone of UMI projects and handles
           the conversion of UMI Template Library Files to <mark>MongoDB</mark> documents and vice-versa.
 
   - title: Work Experience & Internships # Title for the section
