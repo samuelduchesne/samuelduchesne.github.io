@@ -49,18 +49,17 @@ google_analytics: "G-JPF0EN6DC1"
 about_profile_image: images/profile_photo_bw.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Samuel Letellier-Duchesne and I am currently a researcher looking for an opportunity to make my mark
-  in the industry. I have worked on urban building energy modeling both during my PHD and futher more as a Postdoc
-  Fellow in the Sustainbale Design Lab at MIT. I have experience making software and web apps that enable various
-  data-driven workflows in the field of Building Science.
+  in the industry. During my PhD and later as a PostDoc at the MIT Sustainbale Design Lab, I worked on developing urban building energy modeling solutions. 
+  I gained experience making software applications for researchers and web apps that enable various data-driven workflows in the field of building science.
 
   I am most skilled in: <mark>Python</mark> and <mark>C#</mark> and more recently I have been developing
   <mark>REST APIs</mark> and web micro servives for this internet age.
   
   My topics of expertise are:
-  - District Energy Modelling
-  - Building Energy Modelling (<mark>EnergyPlus</mark> & <mark>TRNSYS</mark> have no secrets for me)
-  - Geographic information system through <mark>QGIS</mark>, <mark>PostGIS</mark> databases and python scripting
-  <mark>GeoPandas</mark>
+  - District Energy Modeling
+  - Building Energy Modeling (<mark>EnergyPlus</mark> & <mark>TRNSYS</mark> have no secrets for me)
+  - Urban Building Energy Modeling
+  - Geographic information system through <mark>QGIS</mark>, <mark>PostGIS</mark> databases and python scripting <mark>GeoPandas</mark>
   - Linear and Mixed-Integer Linear Programming (Optimization).
 
 content:
