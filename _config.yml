@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: Samuel Letellier-Duchesne
-title: Researcher
+title: Associate, Design Analytics
 email: samuelduchesne@me.com
-website: www.github.com/samuelduchesne
+website: github.com/samuelduchesne
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: samuelduchesne
@@ -48,19 +48,18 @@ google_analytics: "G-JPF0EN6DC1"
 # about_title: About Me
 about_profile_image: images/profile_photo_bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Samuel Letellier-Duchesne and I am currently a researcher looking for an opportunity to make my mark
-  in the industry. During my PhD and later as a PostDoc at the MIT Sustainbale Design Lab, I worked on developing urban building energy modeling solutions. 
-  I gained experience making software applications for researchers and web apps that enable various data-driven workflows in the field of building science.
+  I work at the intersection of <mark>building science</mark>, <mark>data</mark>, and <mark>climate action</mark>.
 
-  I am most skilled in: <mark>Python</mark> and <mark>C#</mark> and more recently I have been developing
-  <mark>REST APIs</mark> and web micro servives for this internet age.
-  
-  My topics of expertise are:
-  - District Energy Modeling
-  - Building Energy Modeling (<mark>EnergyPlus</mark> & <mark>TRNSYS</mark> have no secrets for me)
-  - Urban Building Energy Modeling
-  - Geographic information system through <mark>QGIS</mark>, <mark>PostGIS</mark> databases and python scripting <mark>GeoPandas</mark>
-  - Linear and Mixed-Integer Linear Programming (Optimization).
+  At **Introba**, I lead design analytics on complex decarbonization projects — bringing rigorous
+  technical insight to real-world challenges in electrification, HVAC retrofits, and energy benchmarking.
+
+  As Co-Founder of **Carbon Signal®**, I'm building a platform that helps portfolio managers cut through
+  uncertainty and move fast on carbon reduction. We combine simulation, data science, and intelligent
+  defaults to prioritize what matters — and scale decarb strategies across entire building portfolios.
+
+  I hold a PhD in Mechanical Engineering (Polytechnique Montréal) and completed a Postdoc at MIT.
+  My academic foundation taught me how to navigate complexity with discipline — and how to turn
+  research into results. That mindset drives both my consulting and product work today.
 
 content:
   - title: Projects & OpenSource Tools # Title for the section
@@ -81,7 +80,7 @@ content:
           Democratization of urban building energy modeling.
         description: | # this will include new lines to allow paragraphs
           I started this project with Yu Qian Ang and Zach Berzolla to accelerate the creation of Urban Building
-          Energy Models (UBEMs). This project tought me how to develop and maintain a microservice on <mark>AWS</mark>.
+          Energy Models (UBEMs). This project taught me how to develop and maintain a microservice on <mark>AWS</mark>.
           
           The backbone of UBEM.io consists of 3 projects that I developed independently: [<mark>pyumi</mark>](#pyumi),
           [<mark>archetypal</mark>](#archetypal) and [<mark>umitemplatedb</mark>](#umitemplatedb).
@@ -110,7 +109,7 @@ content:
           
           The package enables scripted workflows to open UMI projects and process the various module results (energy,
           mobility, district energy, etc.). It also enables the creation of new UMI projects from GIS files: import
-          footprints, extrude geometries in 3D sapce and assign building template names based on a combination of
+          footprints, extrude geometries in 3D space and assign building template names based on a combination of
           feature attributes.
           
           pyumi enables the [Urban Model Generator](http://www.ubem.io/getstarted) as well as the [Urban Model
@@ -127,16 +126,16 @@ content:
         quote: >
           Retrieve, construct, simulate, convert and analyze building energy models.
         description: | # this will include new lines to allow paragraphs
-          I started this project around the begining of my PhD as a way of learning to code in Python, but also out
+          I started this project around the beginning of my PhD as a way of learning to code in Python, but also out
           of frustration with running Commercial Reference Building <mark>EnergyPlus</mark> models. Ep-Launch is
           clunky and it is a pain to upgrade old models to newer versions of EnergyPlus. Furthermore, I needed a way
-          to efficiently read IDF models, run them and retreive their results all in a Jupyter Notebook, the crown
+          to efficiently read IDF models, run them and retrieve their results all in a Jupyter Notebook, the crown
           jewel of reproducible data analysis workflows.
           
-          I leveraged the excellent eppy package to do the heavy lifting of parsing IDF models, but I
+          I leveraged the excellent Eppy package to do the heavy lifting of parsing IDF models, but I
           rewrote the whole logic to handle file upgrades and simulation results. From this robust IDF model scripting
           language, I developed the model complexity reduction algorithms to create simplified 2-zone UMI models out
-          of complexe multi-zone IDF models. This in turn enabled the creation of building templates for the [umi
+          of complex multi-zone IDF models. This in turn enabled the creation of building templates for the [umi
           template database](#umitemplatedb).
           
       - layout: top-middle
@@ -150,7 +149,7 @@ content:
         quote: >
           The structure of the archetype template database.
         description: | # this will include new lines to allow paragraphs
-          The umitemplatedb project was created out of a necessity to store and retreive UMI <mark>Template Library
+          The umitemplatedb project was created out of a necessity to store and retrieve UMI <mark>Template Library
           Files</mark> online. The project defines the building template format, the backbone of UMI projects and handles
           the conversion of UMI Template Library Files to <mark>MongoDB</mark> documents and vice-versa.
 
@@ -158,17 +157,43 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Introba
+        link: https://www.introbaglobal.com
+        link_text: introbaglobal.com
+        sub_title: Associate, Design Analytics
+        caption: 2021 - Present
+        quote: >
+          Helping solve complex decarbonization challenges for large building portfolios.
+        description: | # this will include new lines to allow paragraphs
+          I lead design analytics on complex decarbonization projects — electrification strategies,
+          HVAC retrofits, and energy benchmarking for large building portfolios. I blend building science,
+          data science, and coding to deliver rigorous, scalable solutions.
+
+      - layout: left
+        title: Carbon Signal®
+        link: https://www.carbonsignal.com
+        link_text: carbonsignal.com
+        sub_title: Co-Founder
+        caption: 2022 - Present
+        quote: >
+          A platform to accelerate the path to low-carbon buildings.
+        description: | # this will include new lines to allow paragraphs
+          I co-founded Carbon Signal® to help real estate teams figure out what actually matters when trying
+          to cut carbon across hundreds of assets. We combine simulation, analytics, and smart defaults to
+          turn messy decisions into clear next steps — and scale decarb strategies across entire building portfolios.
+
+      - layout: left
         title: MIT Sustainable Design Lab
         link: http://web.mit.edu/sustainabledesignlab/
         link_text: sustainabledesignlab.com
         sub_title: Postdoctoral Fellow
-        caption: January 2020 - Present
+        caption: January 2020 - 2021
         quote: >
-          Developing tools at the SDL Lab has definitely reinforced my passion for creating robust analysis solutions
+          Developing tools at the SDL Lab reinforced my passion for creating robust analysis solutions
           that others can use.
         description: | # this will include new lines to allow paragraphs
-          As a Postdoctoral Fellow in the Sustainable Design Lab, I undertake reaserch at the intersection of urban building 
-          energy modeling and district energy systems modeling to guide city planners, architects and engineers, 
+          As a Postdoctoral Fellow in the Sustainable Design Lab, I undertook research at the intersection of urban building
+          energy modeling and district energy systems modeling to guide city planners, architects and engineers
           in designing and planning efficient buildings and urban systems.
           
       - layout: left
@@ -195,10 +220,10 @@ content:
         sub_title: Internship
         caption: Autumn 2016
         quote: >
-          This interneship was funded by the competitive Mitacs Acceleration scholarship.
+          This internship was funded by the competitive Mitacs Acceleration scholarship.
         description: | # this will include new lines to allow paragraphs
-          At Pageau Model, an MEP firm based in Montréal, Québec, I evaluated the potential of incorporating within the company workstream the use of 
-          novel building energy modelling tools such as Sefaira. I delivered a final report offering recommendations at the end of the intership.
+          At Pageau Morel, an MEP firm based in Montréal, Québec, I evaluated the potential of incorporating within the company workstream the use of 
+          novel building energy modelling tools such as Sefaira. I delivered a final report offering recommendations at the end of the internship.
           
       - layout: left
         title: Green.Building.Solutions
@@ -233,34 +258,39 @@ content:
         quote: >
           Polytechnique Montréal is Canada's largest french-speaking engineering school.
         description: | # this will include new lines to allow paragraphs
-          Pursuing a PhD in mechanical engineering derives from my interest in the built environement and how
-          early design decisions can impact the sustainability of a project. For my thesis, I applied priciples of
-          Integraded Design to the planning of heat-sharing networks.
+          Pursuing a PhD in mechanical engineering derives from my interest in the built environment and how
+          early design decisions can impact the sustainability of a project. For my thesis, I applied principles of
+          Integrated Design to the planning of heat-sharing networks.
           
-          <<<<<< [Read my thesis](https://www.dropbox.com/s/mkzjq5ed5y2jk09/SLetellier-Duchesne_these.pdf?dl=0) >>>>>>
+          [Read my thesis](https://www.dropbox.com/s/mkzjq5ed5y2jk09/SLetellier-Duchesne_these.pdf?dl=0)
       
       - layout: left
         title: B.Eng. @ Polymtl
         caption: 2010 - 2014
         sub_title: Bachelor of Engineering | Civil Engineering
         quote: >
-          From structural systems to environmental science, my bachelor in civil engineering taught my a lot about the
+          From structural systems to environmental science, my bachelor in civil engineering taught me a lot about the
           built environment.
         description: | # this will include new lines to allow paragraphs
-          A solid engineering foundation at Polytechnique Montreal has taught me how efficiently to solve complex problems.
+          A solid engineering foundation at Polytechnique Montréal taught me to efficiently solve complex problems.
         
+
+  - title: Professional Affiliations
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **ASHRAE** — Member since 2014
+      - **International Building Performance Simulation Association (IBPSA)** — Member since 2015
+      - Bilingual: <mark>French</mark> (native) & <mark>English</mark> (native)
 
   - title: Awards & Scholarships
     layout: text
     content: | # this will include new lines to allow paragraphs
-      I have had the greatest pleasure of receiving these awards and scholarships during my academic career:
-  
-      | Name                                        | Organization                                                  | Value      | Year      | Status   |
-      |:--------------------------------------------|:--------------------------------------------------------------|:-----------|:----------|:---------|
-      | Postdoctoral Fellowship                     | Natural Sciences and Engineering Research Council of Canada   | $45,000/yr | 2020-2021 | accepted |
-      | Hydro-Québec scholarship for excellence     | Hydro-Québec                                                  | $25,000    | 2018      | received |
-      | FRQNT 3rd cycle scholarship                 | Fonds de recherche du Québec – Nature et technologies (FRQNT) | $20,000    | 2017-2018 | received |
-      | J.A. DeSève Foundation Prestige Scholarship | J.A. DeSève Foundation                                        | $10,000    | 2017      | received |
+      | Name                                        | Organization                                                  | Value      | Year      |
+      |:--------------------------------------------|:--------------------------------------------------------------|:-----------|:----------|
+      | Postdoctoral Fellowship                     | Natural Sciences and Engineering Research Council of Canada   | $45,000/yr | 2020-2021 |
+      | Hydro-Québec scholarship for excellence     | Hydro-Québec                                                  | $25,000    | 2018      |
+      | FRQNT 3rd cycle scholarship                 | Fonds de recherche du Québec – Nature et technologies (FRQNT) | $20,000    | 2017-2018 |
+      | J.A. DeSève Foundation Prestige Scholarship | J.A. DeSève Foundation                                        | $10,000    | 2017      |
 
 
 # Footer
