@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Samuel Letellier-Duchesne
-title: Building Science, Data & Climate Action
+title: Associate, Design Analytics
 email: samuelduchesne@me.com
 website: github.com/samuelduchesne
 
@@ -48,22 +48,18 @@ google_analytics: "G-JPF0EN6DC1"
 # about_title: About Me
 about_profile_image: images/profile_photo_bw.jpg
 about_content: | # this will include new lines to allow paragraphs
-  I work at the intersection of building science, data, and climate action. Currently at
-  <mark>Introba</mark> in New York, I apply my research background to real-world engineering challenges —
-  from heat pump system design to district energy planning.
+  I work at the intersection of <mark>building science</mark>, <mark>data</mark>, and <mark>climate action</mark>.
 
-  Previously, I completed a PhD at Polytechnique Montréal and a postdoc at the
-  <mark>MIT Sustainable Design Lab</mark>, where I developed open-source tools for urban building energy
-  modeling. I build software that helps researchers, engineers, and city planners make better
-  decisions about the built environment.
+  At **Introba**, I lead design analytics on complex decarbonization projects — bringing rigorous
+  technical insight to real-world challenges in electrification, HVAC retrofits, and energy benchmarking.
 
-  **What I bring to the table:**
-  - <mark>Python</mark>, <mark>C#</mark>, <mark>REST APIs</mark> and cloud microservices (<mark>AWS</mark>)
-  - Building Energy Modeling (<mark>EnergyPlus</mark> & <mark>TRNSYS</mark>)
-  - Urban Building Energy Modeling (UBEM)
-  - District energy systems & heat-sharing network optimization
-  - GIS workflows with <mark>QGIS</mark>, <mark>PostGIS</mark> & <mark>GeoPandas</mark>
-  - AI-assisted engineering and consulting workflows
+  As Co-Founder of **Carbon Signal®**, I'm building a platform that helps portfolio managers cut through
+  uncertainty and move fast on carbon reduction. We combine simulation, data science, and intelligent
+  defaults to prioritize what matters — and scale decarb strategies across entire building portfolios.
+
+  I hold a PhD in Mechanical Engineering (Polytechnique Montréal) and completed a Postdoc at MIT.
+  My academic foundation taught me how to navigate complexity with discipline — and how to turn
+  research into results. That mindset drives both my consulting and product work today.
 
 content:
   - title: Projects & OpenSource Tools # Title for the section
@@ -164,14 +160,27 @@ content:
         title: Introba
         link: https://www.introbaglobal.com
         link_text: introbaglobal.com
-        sub_title: Building Science & Energy Consultant
+        sub_title: Associate, Design Analytics
         caption: 2021 - Present
         quote: >
-          Working at the intersection of building science, data, and climate action.
+          Helping solve complex decarbonization challenges for large building portfolios.
         description: | # this will include new lines to allow paragraphs
-          At Introba in New York, I apply research-grade expertise to industry practice — designing heat pump systems,
-          modeling district energy solutions, and leveraging AI-assisted workflows to deliver high-performance
-          building and urban energy projects.
+          I lead design analytics on complex decarbonization projects — electrification strategies,
+          HVAC retrofits, and energy benchmarking for large building portfolios. I blend building science,
+          data science, and coding to deliver rigorous, scalable solutions.
+
+      - layout: left
+        title: Carbon Signal®
+        link: https://www.carbonsignal.com
+        link_text: carbonsignal.com
+        sub_title: Co-Founder
+        caption: 2022 - Present
+        quote: >
+          A platform to accelerate the path to low-carbon buildings.
+        description: | # this will include new lines to allow paragraphs
+          I co-founded Carbon Signal® to help real estate teams figure out what actually matters when trying
+          to cut carbon across hundreds of assets. We combine simulation, analytics, and smart defaults to
+          turn messy decisions into clear next steps — and scale decarb strategies across entire building portfolios.
 
       - layout: left
         title: MIT Sustainable Design Lab
