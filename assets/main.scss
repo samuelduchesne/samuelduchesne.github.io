@@ -3,3 +3,394 @@
 ---
 
 @import 'modern-resume-theme';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+// ============================================================
+// Minimalist Design Overrides
+// ============================================================
+
+// --- Design Tokens ---
+$bg-primary: #0c0c0c;
+$bg-elevated: #141414;
+$text-primary: #d6d6d6;
+$text-secondary: #7a7a7a;
+$accent: #c9a96e;
+$accent-hover: #dbbf88;
+$border-color: #1e1e1e;
+$border-subtle: #161616;
+
+// --- Base ---
+
+body, body.dark {
+  background-color: $bg-primary;
+  color: $text-primary;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+// --- Typography ---
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: $text-secondary;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  color: $text-secondary;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.15rem;
+}
+
+p, ul {
+  font-size: 1.35rem;
+  line-height: 1.75;
+  text-align: left;
+}
+
+// --- Links ---
+
+a, .dark a {
+  color: $accent;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover, a:focus, a:active,
+.dark a:hover, .dark a:focus, .dark a:active {
+  color: $accent-hover;
+  text-decoration: none;
+}
+
+// --- Mark / Tag Elements ---
+
+mark, .dark mark {
+  background-color: rgba($accent, 0.15);
+  color: $accent;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 90%;
+  font-weight: 500;
+  box-shadow: none;
+  border: 1px solid rgba($accent, 0.2);
+}
+
+// --- Profile Image ---
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 2px solid $border-color;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+// --- Header ---
+
+.header-contianer {
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  margin-top: 20px;
+}
+
+.header-right {
+  p {
+    font-size: 1.2rem;
+    color: $text-secondary;
+    margin-bottom: 4px;
+  }
+
+  a {
+    color: $text-secondary;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}
+
+// --- Sections ---
+
+.container {
+  margin-top: 3rem;
+}
+
+.list-container, .text-container {
+  margin-bottom: 1rem;
+}
+
+// --- Layout Items ---
+
+.layout {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $border-subtle;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+// --- Details (left column) ---
+
+.layout .details {
+  p {
+    font-size: 1.2rem;
+    color: $text-secondary;
+    line-height: 1.6;
+
+    b {
+      color: $text-primary;
+      font-weight: 500;
+    }
+  }
+
+  h4 {
+    color: $text-primary;
+
+    a {
+      color: $text-primary;
+      font-style: normal;
+      font-weight: 500;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+
+  .link {
+    font-size: 1.1rem;
+    color: $accent;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+// --- Quotes ---
+
+p.quote {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: $text-secondary;
+  text-align: left;
+  padding: 0.6rem 0 0.6rem 1.5rem;
+  border-left: 2px solid $accent;
+  margin: 0.75rem 0 1.25rem;
+}
+
+// --- About / Intro Section ---
+
+.intro-container {
+  .col-xs-12.col-sm-8,
+  .col-xs-12.col-sm-8.col-md-9 {
+    p {
+      font-size: 1.35rem;
+      color: $text-primary;
+      line-height: 1.8;
+    }
+  }
+}
+
+.into-text-1 {
+  margin-top: 20px;
+}
+
+// --- Social Icon Buttons ---
+
+.button--sacnite::before,
+.dark .button--sacnite::before {
+  box-shadow: inset 0 0 0 35px $border-color;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.button.button--sacnite,
+.dark .button.button--sacnite {
+  width: 48px;
+  height: 48px;
+  color: $text-secondary;
+}
+
+.button--sacnite:hover,
+.dark .button--sacnite:hover {
+  color: $accent;
+}
+
+.button--sacnite:hover::before,
+.dark .button--sacnite:hover::before {
+  box-shadow: inset 0 0 0 2px $accent;
+}
+
+.icons i,
+.dark .icons i {
+  font-size: 20px;
+  line-height: 48px;
+  background: none;
+  color: inherit;
+}
+
+.icons {
+  margin-bottom: 15px;
+}
+
+.dark .icons a:hover i {
+  color: $accent;
+}
+
+// --- Contact ---
+
+.contact a {
+  color: $text-secondary;
+  transition: color 0.25s ease;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+// --- Tables (Awards) ---
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+
+  th, td {
+    padding: 0.65rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 1px solid $border-color;
+    text-align: left;
+  }
+
+  th {
+    font-weight: 500;
+    font-size: 1rem;
+    color: $text-secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    border-bottom: 1px solid $border-color;
+  }
+
+  td {
+    color: $text-primary;
+    font-weight: 300;
+  }
+
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+}
+
+// --- Footer ---
+
+.footer-container {
+  margin-top: 5rem;
+  padding-top: 2rem;
+  border-top: 1px solid $border-color;
+}
+
+.footer-container p {
+  font-size: 1.15rem;
+  color: $text-secondary;
+}
+
+.footer-container a {
+  color: $accent;
+  font-style: normal;
+}
+
+// --- Scrollbar (Webkit) ---
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-primary;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $border-color;
+  border-radius: 3px;
+
+  &:hover {
+    background: $text-secondary;
+  }
+}
+
+// --- Selection ---
+
+::selection {
+  background: rgba($accent, 0.3);
+  color: $text-primary;
+}
+
+::-moz-selection {
+  background: rgba($accent, 0.3);
+  color: $text-primary;
+}
+
+// --- Print adjustments ---
+
+@media print {
+  body {
+    background: #fff;
+    color: #222;
+  }
+
+  h3 {
+    text-align: left;
+    border-bottom-color: #ccc;
+  }
+
+  mark {
+    background-color: #eee;
+    color: #222;
+    border: 1px solid #ccc;
+  }
+
+  .footer-container {
+    border-top-color: #ccc;
+  }
+}
